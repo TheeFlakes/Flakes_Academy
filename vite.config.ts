@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
-		port: 3000, // specify your desired port
+		host: true,
+		port: 5173
 	}
 });
