@@ -63,7 +63,7 @@
       <!-- Main Content -->
       <div class="text-center space-y-6">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-            Master the Markets with the F.L.A.K.E.S Trading Course
+            Master the Markets with the FLAKES Trading Course
         </h1>
         <p class="text-lg sm:text-xl lg:text-2xl max-w-2xl mx-auto text-gray-600">
             Learn the secrets of reading price action, mastering trading psychology, and building a profitable system.

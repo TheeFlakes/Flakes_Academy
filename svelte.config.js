@@ -1,10 +1,14 @@
-import adapter from '@sveltejs/adapter-auto';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
+import { vitePreprocess } from '@sveltejs/kit/vite';
+
+export default {
   kit: {
-    adapter: adapter()
+    // other configurations...
+    vite: {
+      server: {
+        host: '0.0.0.0',
+        port: 3000 // or any other port you want to use
+      }
+    }
   },
   preprocess: vitePreprocess()
 };
-export default config;
