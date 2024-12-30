@@ -1,4 +1,4 @@
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import { preprocess } from '@sveltejs/kit/vite';
 
 export default {
   kit: {
