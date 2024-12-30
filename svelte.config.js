@@ -14,8 +14,7 @@ const config = {
             }
         }
     },
-    preprocess: vitePreprocess(),
-    extends: "./.svelte-kit/tsconfig.json"
+    preprocess: vitePreprocess()
 };
 
 export default config;
